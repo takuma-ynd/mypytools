@@ -1,6 +1,6 @@
 from contextlib import contextmanager
 import time
-from misc import print_green
+from mypytools.misc import print_green
 
 @contextmanager
 def timed(name):
